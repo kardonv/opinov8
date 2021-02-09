@@ -1,7 +1,7 @@
-const { expect, assert } = require('chai');
+const { expect } = require('chai');
 require('../index');
 
-describe('Test custoFlat function.', () => {
+describe('Test customFlat function.', () => {
 	const errorMessage = `Elements in result array are different`;
 
 	it(`Case 1. [[2], 3, {}, [1, 2]]`, function (done) {
